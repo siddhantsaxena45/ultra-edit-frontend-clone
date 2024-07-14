@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highly Secure Text and Code Editor</title>
+    <link rel="icon" href="logo.png" type="image/icon type" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background-color: rgb(255, 255, 255);
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .options select {
+      border: none;
+      color: black;
+      opacity: 0.9;
+      cursor: pointer;
+    }
+    .options img {
+      cursor: pointer;
+    }
+    .options select:hover {
+      text-shadow: 2px 1px 3px blue;
+    }
+    .content {
+      height: 90vh;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 15vw 15vw 15vw;
+      justify-content: center;
+      gap: 20px;
+      margin: 10px 0px;
+    }
+    .item {
+      height: 125px;
+      background-color: rgb(246, 239, 239);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 25px;
+      border-radius: 9px;
+    }
+    .item:hover {
+      box-shadow: 2px 2px 2px black;
+      transform: scale(1.1);
+    }
+    .item button {
+      background-color: lightgreen;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    .item a {
+      text-decoration: none;
+    }
+    .item button:hover {
+      transform: scale(1.1);
+      background-color: rgba(47, 208, 154, 0.841);
+    }
+    .item a:hover {
+      color: blueviolet;
+    }
+    @media only screen and (max-width: 500px) {
+      .container {
+        display: grid;
+        grid-template-columns: 45vw;
+        justify-content: center;
+        gap: 20px;
+        margin: 10px 0px;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="icon"><img src="img2.png" alt="" /></div>
+        <div class="options">
+          <select name="opt" id="o1" disabled>
+            <option value="pricing">Pricing</option>
+          </select>
+          <select name="opt" id="o1" disabled>
+            <option value="Products">Products</option>
+          </select>
+          <select name="opt" id="o1" disabled>
+            <option value="Resources">Resources</option>
+          </select>
+          <select name="opt" id="o1" disabled>
+            <option value="Resources">Resources</option>
+          </select>
+          <select name="opt" id="o1" disabled>
+            <option value="aboutus">About us</option>
+          </select>
+          <select name="opt" id="o1" disabled>
+            <option value="aboutus">Security and compliance</option>
+          </select>
+          <img src="img1.png" alt="" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+        <div class="item">
+          <h3>English</h3>
+          <button><a href="ue_english_64.exe">Download 64-bit</a></button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
